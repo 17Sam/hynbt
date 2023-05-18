@@ -3,14 +3,14 @@ This is a python library that has some tools to decode hypixel item and inventor
 
 # **Usage**
 ## **Decoding**
-hynbt.**decode**(*data*) returns a nbt decoded object.
+`hynbt.**decode**(*data*)` returns a nbt decoded object.
 
-hynbt.**pretty**(*nbt*) returns a string displaying the tree of the nbt data
+`hynbt.**pretty**(*nbt*)` returns a string displaying the tree of the nbt data
 
-hynbt.**prettydecode**(*data*) both functions above but merged
+`hynbt.**prettydecode**(*data*)` both functions above but merged
 
 ## **Inventories**
-hynbt.**invItemList**(*inv*) returns a list of the item ids in the inventory
+`hynbt.**invItemList**(*inv*)` returns a list of the item ids in the inventory
 
 ## **Encoding**
 \>> Not finished <<
