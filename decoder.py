@@ -1,7 +1,6 @@
 import base64
 import nbt
 import io
-import json
 
 # Decodes a base64 gzipped nbt string
 def decodeData(string):
